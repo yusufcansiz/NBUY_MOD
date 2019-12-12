@@ -120,6 +120,16 @@
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NBUY_MOD.Entities\NBUY_MOD.Entities.csproj">
+      <Project>{C9004353-E9AD-4FBC-AC35-0D79BFB36700}</Project>
+      <Name>NBUY_MOD.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NBUY_MOD.Services\NBUY_MOD.Services.csproj">
+      <Project>{A4992819-6C3D-4A9B-A493-54812DD5A42F}</Project>
+      <Name>NBUY_MOD.Services</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
