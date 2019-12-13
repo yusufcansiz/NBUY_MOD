@@ -1,6 +1,7 @@
 ﻿using NBUY_MOD.DAL.Database;
 using NBUY_MOD.DAL.Repository;
 using NBUY_MOD.Entities;
+using NBUY_MOD.Entities.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +12,7 @@ namespace NBUY_MOD.Services
 {
     public class NewsServices
     {
+        //Burası hatalı kullanım, çünkü EF bağımlılığı var
         //private ProjectContext database;
 
         //public NewsServices()

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NBUY_MOD.Entities
+namespace NBUY_MOD.Entities.Entity
 {
     public class Category
     {

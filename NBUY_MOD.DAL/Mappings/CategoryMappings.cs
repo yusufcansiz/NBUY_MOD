@@ -1,4 +1,5 @@
 ﻿using NBUY_MOD.Entities;
+using NBUY_MOD.Entities.Entity;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity.ModelConfiguration;
